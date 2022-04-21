@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+/*==========================================================*/
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap");
+/*font-family: 'Source Code Pro', monospace;*/
+@import url("../css/header.css");
+@import url("../css/main.css");
+@import url("../css/footer.css");
+@import url("../css/classes.css");
+@font-face {
+  font-family: "сenturygothic";
+  src: url("../fonts/centurygothic.ttf");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  font-size: 15px;
+  font-family: "PT Sans";
+  color: #000;
+  font-weight: 400;
+}
+body.lock {
+  overflow: hidden;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+html, body {
+  height: 100%;
+  line-height: 1;
+}
+
+.wrapper {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100%;
+}
